@@ -38,6 +38,6 @@ class ChatServer1 {
 
         int port = Integer.parseInt(args[0]);
 
-        Server.start(port, new Handler());
+        Server1.start(port, new Handler());
     }
 }
